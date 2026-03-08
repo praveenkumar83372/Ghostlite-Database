@@ -1,0 +1,1 @@
+# Ghostlite optional extensions package
