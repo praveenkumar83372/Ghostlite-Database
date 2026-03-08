@@ -1,10 +1,20 @@
 # 👻 Ghostlite
 
-Ghostlite is a **lightweight Python database** designed to make data storage simple and powerful for developers.
+![PyPI](https://img.shields.io/pypi/v/ghostlite)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-It allows you to store, query, and manage data directly in Python while providing built-in tools such as SQL querying, REST APIs, a web dashboard, an admin panel, and distributed database synchronization.
+**Ghostlite** is a lightweight Python database designed to make data storage simple and powerful for developers.
 
-Ghostlite is perfect for **local applications, prototypes, learning databases, and lightweight backend services**.
+It allows you to **store, query, and manage data directly in Python** while providing built-in tools such as **SQL querying, REST APIs, a web dashboard, an admin panel, and distributed database synchronization**.
+
+Ghostlite is ideal for:
+
+* Local applications
+* Prototypes and MVPs
+* Lightweight backend services
+* Learning database systems
+* Offline-first applications
 
 ---
 
@@ -12,9 +22,12 @@ Ghostlite is perfect for **local applications, prototypes, learning databases, a
 
 Install Ghostlite using pip:
 
-```
+```bash
 pip install ghostlite
 ```
+
+PyPI Package
+https://pypi.org/project/ghostlite/
 
 ---
 
@@ -28,7 +41,7 @@ Create databases and tables easily using Python.
 
 ### 🧠 SQL Query Engine
 
-Run SQL-like queries directly on your data.
+Run SQL-style queries directly on your data.
 
 ### 🔍 Full Text Search
 
@@ -75,7 +88,7 @@ users.insert(name="Bob", age=30)
 print(users.all())
 ```
 
-Output example:
+Example output:
 
 ```
 [
@@ -175,22 +188,21 @@ db.enable_cluster([
 
 # 💡 What You Can Build With Ghostlite
 
-Ghostlite can be used for many types of projects:
+Ghostlite can power many types of applications:
 
-• Local data storage applications
-• Lightweight backend services
-• Prototypes and MVPs
-• Developer tools
-• Learning database systems
-• Offline-first applications
+* Local data storage systems
+* Lightweight backend services
+* Developer tools
+* Learning database projects
+* Offline-first apps
 
 ---
 
 # 🔗 Links
 
-### GitHub
+### GitHub Repository
 
-https://github.com/praveenkumar83372
+https://github.com/praveenkumar83372/Ghostlite-Database
 
 ### Portfolio
 
@@ -200,7 +212,7 @@ https://praveenkumart-portfolio.web.app/
 
 # 👨‍💻 Author
 
-Praveen Kumar
+**Praveen Kumar**
 
 Developer passionate about building innovative software tools and systems.
 
